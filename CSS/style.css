@@ -31,7 +31,50 @@
 }
 .counter .layer{
     background-color: rgba(214, 46, 51, 0.6);
+    padding: 140px;
 }
 .cells {
     font-size: 30px;
+    font-weight: 500;
+}
+.contact{
+    margin: 100px;
+    padding-top: 100px;
+}
+.contact .container > h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #444;
+}
+.contact .container .row ,.contact .container > p{
+    color: #777;
+}
+.row h3 {
+    font-size: 18px;
+    font-weight: bolder;
+    color: #444;
+}
+.icons div{
+    padding: 12px 10px;
+    border-color: #999 !important;
+    cursor: pointer;
+}
+.icons div:hover {
+    background-color: rgb(214, 46, 52);
+    color: white;
+    border-color: rgb(214, 46, 52) !important;
+}
+.info p:nth-of-type(2) span {
+    color: rgb(214, 46, 52);
+}
+.inputs + p span {
+    color: rgb(214, 46, 52);
+    font-size: 20px;
+}
+.btn {
+    color: white;
+    padding: 10px 20px;
+}
+textarea{
+    resize: vertical;
 }
