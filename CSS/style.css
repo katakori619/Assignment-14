@@ -1,7 +1,7 @@
 .home{
     background-image: url(../images/home-image.jpg);
     background-size: 100% 100%;
-    height: 90vh;
+    height: 660px;
 }
 .home .layer{
     background-color: rgba(214, 46, 51, 0.6);
@@ -22,6 +22,8 @@
 .singer div{
     background-color: #ccc;
     padding: 10px;
+}
+.notshown{
     display: none;
 }
 .counter{
