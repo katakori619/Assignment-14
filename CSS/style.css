@@ -80,3 +80,28 @@
 textarea{
     resize: vertical;
 }
+.sidenav{
+    width: 250px;
+    height: 100vh;
+    z-index: 9999;
+    background-color: #111;
+    position: fixed;
+    left: 0;
+    top: 0;
+    transition: 0.5s;
+    padding-top: 20px;
+}
+.sidenav a{
+    padding: 20px 8px 20px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    display: block;
+    transition: 0.3s;
+    color: white;
+}
+.sidenav a:hover {
+    color: rgba(214, 46, 51, 0.4);
+}
+.home .layer .btn-close{
+    font-size: 16px !important;
+}
