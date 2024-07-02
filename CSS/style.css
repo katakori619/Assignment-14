@@ -81,15 +81,16 @@ textarea{
     resize: vertical;
 }
 .sidenav{
-    width: 250px;
+    width: 0px;
     height: 100vh;
-    z-index: 9999;
+    z-index: 1;
     background-color: #111;
     position: fixed;
     left: 0;
     top: 0;
     transition: 0.5s;
     padding-top: 20px;
+    overflow: hidden;
 }
 .sidenav a{
     padding: 20px 8px 20px 32px;
@@ -104,4 +105,11 @@ textarea{
 }
 .home .layer .btn-close{
     font-size: 16px !important;
+}
+.openNav{
+    margin-left: 10px;
+}
+.sidenav.nothidden {
+    width: 250px;
+    transition: 0.5s;
 }
