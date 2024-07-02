@@ -51,3 +51,8 @@ $('.openNav').on('click',function(){
     var sidebarWidth = $('.sidenav').hasClass('nothidden') ? '260px' : '10px';
     $('.openNav').animate({ 'margin-left': sidebarWidth }, 300)
 })
+$('.sidenav a').on('click',function(){
+    var sectionid = $(this).attr('href')
+    var sectionposition = $(sectionid).offset().top
+    $("html , body").animate({scrollTop:sectionposition},1000);
+})
