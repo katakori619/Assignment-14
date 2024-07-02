@@ -45,11 +45,13 @@ $('.btn-close').on('click',function(){
     $('.sidenav').removeClass('nothidden');
     var sidebarWidth = $('.sidenav').hasClass('nothidden') ? '260px' : '10px';
     $('.openNav').animate({ 'margin-left': sidebarWidth }, 300)
+    $('.caption h1,.caption p').animate({ 'margin-left': sidebarWidth }, 300)
 })
 $('.openNav').on('click',function(){
     $('.sidenav').addClass('nothidden');
     var sidebarWidth = $('.sidenav').hasClass('nothidden') ? '260px' : '10px';
     $('.openNav').animate({ 'margin-left': sidebarWidth }, 300)
+    $('.caption h1,.caption p').animate({ 'margin-left': sidebarWidth }, 300)
 })
 $('.sidenav a').on('click',function(){
     var sectionid = $(this).attr('href')

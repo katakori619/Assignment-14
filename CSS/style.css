@@ -113,3 +113,52 @@ textarea{
     width: 250px;
     transition: 0.5s;
 }
+@media (min-width:525px) and (max-width: 767px){
+    .singer{
+        width: 80% !important;
+    }
+    .counter{
+        height: 600px;
+    }
+    .counter .layer{
+        padding: 30px;
+    }
+}
+@media (max-width:524px){
+    .singer{
+        width: 95% !important;
+    }
+    .counter{
+        height: 800px;
+    }
+    .counter .layer{
+        padding: 30px;
+    }
+    .counter .cells{
+        width: 100%;
+    }
+    .contact{
+        width: 100%;
+        margin: 100px 0px;
+    }
+    .sidenav.nothidden{
+        width: 110px;
+    }
+    .sidenav a{
+        font-size: 16px;
+    }
+    .openNav{
+        font-size: 14px !important;
+    }
+    .home{
+        overflow: hidden;
+    }
+}
+@media (max-width:300px){
+    .icons{
+        flex-wrap: wrap;
+    }
+    .icons div{
+        margin-bottom: 10px;
+    }
+}
